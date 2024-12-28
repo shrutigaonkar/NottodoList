@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Created by Shruti g 27/12/2024 */
+.container {   /*  Created by Shruti G 26/12/224 */
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ee22aa;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container h1 {
+  color: #4CAF50;
+  text-align: center;
+}
+.container h2{
+  color: #f1e532;
+  text-align: center;
+}
+
+button {
+  font-family: Arial, sans-serif; /* Font family */
+  font-size: 16px;               /* Font size */
+  padding: 10px 20px;            /* Padding */
+  border: none;                  /* Remove border */
+  border-radius: 5px;            /* Rounded corners */
+  cursor: pointer;               /* Pointer cursor on hover */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Button  */
+.btn-primary{
+  background-color: #674188;
+}
+
+.btn-danger{
+  background-color: #dc3545;
+  padding: 0.7rem;
+}
+
+.btn-info{
+  background-color: #33bee5;
+}
+.btn-hover{
+  transform: translateY(-2px);
+}
+.btn-add{
+  background-color: #533366;
+}
+
+
+/* Style the table container */
+.table-container {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;    /* Vertically center */
+  height: 100vh;          /* Full viewport height */
+}
+
+.table-container {
+  display: grid;
+  place-items: center; /* Centers content both horizontally and vertically */
+  height: 100vh;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: left;
+}
+
+.th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.th {
+  background-color: #f2f2f2;
+}
+
+.table-container {
+  margin: auto;
+  width: 50%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.th {
+  background-color: #f2f2f2;
+}
+
+/* HRAdminlogin */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.login-button {
+  width: 10%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #e91616d3;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Register css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.register-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.register-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.register-button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+
